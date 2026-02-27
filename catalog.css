@@ -1,0 +1,238 @@
+.navbar ul{
+    list-style: none;
+    background-color: #235347;
+    padding:5px;
+    margin:22px;
+    overflow: hidden;
+    text-align-last: center;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    width:100px;
+    text-align-last: center;
+}
+
+.navbar a:hover {
+    background-color: darkgray;
+}
+
+.navbar li{
+    display: inline-block;
+    
+}
+
+#menu-toggle{
+    display:none;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 30px;
+    padding: 20px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    display: none;
+    background: #444;
+
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: flex;
+    }
+    
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.menu ul li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+    
+}
+
+#menu-toggle:checked + .menu-icon + .menu{
+    display: block;
+    
+}
+
+.my_cover {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: 70%;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    padding-bottom: 7%;
+    flex-wrap: wrap;
+}
+
+.cover-text {
+    position: absolute;
+    top: 25%;
+    color: white;
+    
+    
+}
+
+.cover-text h4{
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding-left: 10%;
+    
+}
+
+
+.cover-text h5{
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-left: 10%;
+    
+}
+
+
+
+
+
+
+
+h1 {
+    color:white;
+    text-align: center;
+    font-family: "minerva-modern", sans-serif;font-weight: 700;font-style: normal;
+    text-transform:uppercase;
+}
+
+li {
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+p {
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+h2 {
+    font-family: "minerva-modern", sans-serif;font-weight: 700;font-style: normal;
+    
+}
+
+
+
+
+
+
+
+
+body {
+    background: #235347;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    width: 220px;
+    height: 420px;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+
+.card-image {
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+
+
+
+.card:hover  {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.card:hover p{
+    color:white;
+}
+
+
+
+.car-1 {
+    background-image: url("images/labios.jpeg")
+}
+
+.car-2 {
+    background-image: url("images/lipbalm.jpeg")
+}
+
+.car-3 {
+    background-image: url("images/jabon.jpeg")
+}
+
+.car-4 {
+    background-image: url("images/radiantelipscrub.jpeg")
+}
+
+.car-5 {
+    background-image: url("images/whippedex.jpeg")
+}
+
+.car-6 {
+    background-image: url("images/lipscrub.jpeg")
+}
+
+
+
+

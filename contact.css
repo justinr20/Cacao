@@ -1,0 +1,166 @@
+.navbar ul{
+    list-style: none;
+    background-color: #235347;
+    padding: 5px;
+    margin: 22px;
+    overflow: hidden;
+    text-align: center;
+    
+    
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    width:100px;
+    text-align: center;
+    
+}
+.navbar a:hover{
+    background-color: darkgray;
+}
+.navbar li{
+    display: inline-block;
+}
+
+#menu-toggle{
+    display:none;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 30px;
+    padding: 20px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    display: none;
+    background: #444;
+
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: flex;
+    }
+    
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.menu ul li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+    
+}
+
+#menu-toggle:checked + .menu-icon + .menu{
+    display: block;
+    
+}
+
+body {
+    background-color: #cbc3b6;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: "minerva-modern", sans-serif;font-weight: 700;font-style: normal;
+    text-transform:uppercase;
+}
+
+h2{
+      font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    
+}
+
+li {
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+    
+
+
+
+
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+    
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+    
+}
+
+.contact-inputs:focus{
+    border: 2px solid #ff994f;
+}
+
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f, #fa6d86);
+    cursor: pointer;
+    
+    
+}
