@@ -148,6 +148,19 @@ p {
 
 
 
+.icons {
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.icons a {
+    color:white;
+    text-decoration: none;
+    
+}
+
+
 .footer-image > img{
     padding-top: 40px;
     width: 20%;
