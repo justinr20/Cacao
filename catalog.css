@@ -114,10 +114,21 @@
     font-family: "minerva-modern", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 10%;
     
 }
+
+.button {
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 10%;
+    color: white;
+}
+    
+    
 
 
 
